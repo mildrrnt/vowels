@@ -1,7 +1,8 @@
 body {
   background-color: gray;
   font-family: 'Prompt', sans-serif;
-  font-weight: 400px;
+  font-style: italic;
+  font-weight: 400;
 }
 
 .container {
