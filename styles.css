@@ -95,6 +95,11 @@ a {
   opacity: 0;
 }
 
+#btn {
+  padding: 1.5vw;
+  border-radius: 2vw;
+  border-style: groove;
+}
 #next {
   border-radius: 2vw;
   padding: 1vw;
