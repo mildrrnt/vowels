@@ -57,30 +57,32 @@ a {
 #noti {
   font-size: 3.5vw;
   background-color: #fff68b;
-  border-radius: 10px;
-  padding: 10px;
-  animation: 2s ease 0s normal forwards 1 fadein;
-  -webkit-animation: 2s ease 0s normal forwards 1 fadein;
+  border-radius: 3vw;
+  padding: 3vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  animation: 1s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
   opacity: 1;
 }
 
 #first {
-  animation: 2.7s ease 0s normal forwards 1 fadein;
-  -webkit-animation: 2.7s ease 0s normal forwards 1 fadein;
+  animation: 1s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
   opacity: 1;
 }
 
 #second {
-  animation: 2.7s ease 1s normal forwards 1 fadein;
-  -webkit-animation: 2.7s ease 1s normal forwards 1 fadein;
+  animation: 1s ease 1s normal forwards 1 fadein;
+  -webkit-animation: 1s ease 1s normal forwards 1 fadein;
   opacity: 0;
 }
 
 #next {
   border-radius: 10px;
   padding: 20px;
-  animation: 2.7s ease 2s normal forwards 1 fadein;
-  -webkit-animation: 2.7s ease 2s normal forwards 1 fadein;
+  animation: 1s ease 2s normal forwards 1 fadein;
+  -webkit-animation: 1s ease 2s normal forwards 1 fadein;
   opacity: 0;
 }
 
@@ -88,7 +90,7 @@ a {
   0% {
     opacity: 0;
   }
-  80% {
+  50% {
     opacity: 0;
   }
   100% {
@@ -100,7 +102,7 @@ a {
   0% {
     opacity: 0;
   }
-  80% {
+  50% {
     opacity: 0;
   }
   100% {
