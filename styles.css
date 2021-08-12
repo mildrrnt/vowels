@@ -1,5 +1,5 @@
 body {
-  background-color: gray;
+  background-color: white;
   font-family: 'Prompt', sans-serif;
   font-style: italic;
   font-weight: 400;
@@ -12,11 +12,15 @@ body {
   height: 95vh;
   width: 53.4375vh;
   background-color: white;
-  font-size: 4vw;
+  font-size: 4.5vw;
 }
 
 #logo {
   height: 15vw;
+}
+
+#lower {
+  padding-top: 125%;
 }
 
 a {
@@ -67,20 +71,24 @@ a {
 }
 
 #first {
+  padding: 1vw;
+  border-radius: 2vw;
   animation: 1s ease 0s normal forwards 1 fadein;
   -webkit-animation: 1s ease 0s normal forwards 1 fadein;
   opacity: 1;
 }
 
 #second {
+  padding: 1vw;
+  border-radius: 2vw;
   animation: 1s ease 1s normal forwards 1 fadein;
   -webkit-animation: 1s ease 1s normal forwards 1 fadein;
   opacity: 0;
 }
 
 #next {
-  border-radius: 10px;
-  padding: 20px;
+  border-radius: 2vw;
+  padding: 1vw;
   animation: 1s ease 2s normal forwards 1 fadein;
   -webkit-animation: 1s ease 2s normal forwards 1 fadein;
   opacity: 0;

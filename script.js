@@ -1,7 +1,7 @@
-document.getElementById('content').style.display = 'none';
+document.getElementsByClassName('container')[0].style.display = 'none';
 
 window.onload = event => {
-  document.getElementById('content').style.display = 'block';
+  document.getElementsByClassName('container')[0].style.display = 'block';
   document.getElementById('loading').style.display = 'none';
 };
 
