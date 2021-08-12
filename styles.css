@@ -15,12 +15,21 @@ body {
   font-size: 4.5vw;
 }
 
+small {
+  font-size: 3.2vw;
+  color: darkslategray;
+}
+
 #logo {
   height: 15vw;
 }
 
 #lower {
   padding-top: 125%;
+}
+
+#lower2 {
+  padding-top: 80%;
 }
 
 a {
