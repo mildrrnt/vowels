@@ -159,13 +159,11 @@ a {
     margin-top: -30%;
     height: 180%;
     opacity: 1;
-    transform: scale(1, 1);
   }
 
   100% {
     margin-top: 0%;
     height: 100%;
     opacity: 1;
-    transform: scale(1.5, 1.5);
   }
 }
