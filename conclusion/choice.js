@@ -96,7 +96,6 @@ function CopyToClipboard() {
   document.execCommand('copy');
   alert('Copied the text: ' + copyText.value);
   document.body.removeChild(copyText);
-
 }
 
 button.onclick = function() {
