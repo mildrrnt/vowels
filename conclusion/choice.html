@@ -1,0 +1,99 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="../conclusion/sty.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,400;1,600&display=swap" rel="stylesheet" />
+</head>
+
+<body id="body">
+  <center>
+    <div class="loader" id="loading"></div>
+  </center>
+  <div class="container">
+
+    <section id="content">
+      <br />
+      <center>
+        <h3 id="result"></h3>
+      </center>
+      <h2 id="head">มาเช็คคำตอบของคุณกัน!</h2>
+      <br>
+      <section id="thanks">
+        <span id="first">ขอบคุณที่ร่วมสนุกกับพวกเรา Vowels!<br /><br /></span>
+        <span id="second">ส่งต่อเรื่องราวนี้ให้เพื่อนของคุณ<br /><br /></span>
+        <button id="next"> copy link </button>
+      </section>
+      <form id="ans" style="text-align: left;margin-left:5%">
+        <div id="group1">
+          <span class="num">1</span> ข่าวเรื่องวัคซีน
+          <div style="text-align:right;margin-right:7%;margin-top:-7.5%">
+            <input type="radio" id="1t" value="0" name="group1">
+            <label for="1t">เชื่อ</label> <input type="radio" id="1f" value="1" name="group1">
+            <label for="1f">ไม่เชื่อ</label>
+          </div>
+          <br>
+        </div>
+
+        <div id="group2">
+          <span class="num">2</span> โฆษณาที่มาสก์หน้า
+          <div style="text-align:right;margin-right:7%;margin-top:-7.5%">
+            <input type="radio" id="2t" value="0" name="group2">
+            <label for="2t">ซื้อ</label>
+            <input type="radio" id="2f" value="1" name="group2">
+            <label for="2f">ไม่ซื้อ</label>
+          </div><br>
+        </div>
+
+        <div id="group3">
+          <span class="num">3</span> แบบทดสอบปอด
+          <div style="text-align:right;margin-right:7%;margin-top:-7.5%">
+            <input type="radio" id="3t" value="0" name="group3">
+            <label for="3t">ทำ</label>
+            <input type="radio" id="3f" value="1" name="group3">
+            <label for="3f">ไม่ทำ</label>
+          </div><br>
+        </div>
+        <div id="group4">
+          <span class="num">4</span> ข่าวเงินสนับสนุน<br>
+          <div style="margin-left:60%;margin-top:-7.5%">
+            <input type="radio" id="4t" value="0" name="group4">
+            <label for="4t">จริง ทำ</label><br>
+            <input type="radio" id="4f" value="1" name="group4">
+            <label for="4f">จริง ไม่ทำ</label><br>
+            <input type="radio" id="4ff" value="2" name="group4">
+            <label for="4ff">ไม่จริง ไม่ทำ</label><br><br>
+          </div>
+        </div>
+        <div id="group5">
+          <span class="num">5</span> ข้อความรับเงิน<br>
+          <div style="text-align:right;margin-right:7%;margin-top:-7.5%">
+            <input type="radio" id="5t" value="0" name="group5">
+            <label for="5t">รับ</label>
+            <input type="radio" id="5f" value="1" name="group5">
+            <label for="5f">ไม่รับ</label>
+          </div><br>
+        </div>
+        <div id="group6">
+          <span class="num">6</span> วิธีเช็คข่าวปลอม<br>
+          <div style="text-align:right;margin-right:7%;margin-top:-7.5%">
+            <input type="radio" id="6t" value="1" name="group6">
+            <label for="6t">ทำ</label>
+            <input type="radio" id="6f" value="0" name="group6">
+            <label for="6f">ไม่ทำ</label>
+          </div><br>
+        </div>
+        <center><input type="submit" value="เช็คคะแนน"></center>
+  </div>
+  </form>
+
+
+
+  </section>
+  </div>
+  <script src="../conclusion/choice.js"></script>
+</body>
+
+</html>
