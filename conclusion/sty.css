@@ -33,18 +33,16 @@ input[type='radio'] {
   transform: scale(1.2);
   -ms-transform: scale(1.2);
   -webkit-transform: scale(1.2);
-  
 }
 
 button {
-  padding: 2vh;
-  height: 7vh;
-  width: 20vh;
-  background: #7fc7c6;
+  padding: 2vw;
+  width: 40vw;
+  background:  #fff68b;
   border: 0 none;
-  border-radius: 2vh;
+  border-radius: 2vw;
   cursor: pointer;
-  -webkit-border-radius: 2vh;
+  -webkit-border-radius: 2vw;
   font-family: 'Prompt', sans-serif;
   font-style: italic;
   font-weight: 400;
@@ -136,7 +134,7 @@ a {
   border-radius: 2vw;
   border-style: groove;
 }
-#next {
+.next {
   border-radius: 2vw;
   padding: 1vw;
   animation: 1s ease 2s normal forwards 1 fadein;
