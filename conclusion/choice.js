@@ -21,6 +21,7 @@ function isMobileDevice() {
   return check;
 }
 
+const imgsrc = "https://sv1.picz.in.th/images/2021/08/19/2armtI.jpg"
 const container = document.getElementsByClassName('container')[0];
 
 document.getElementById('thanks').style.display = 'none';
@@ -74,9 +75,8 @@ ans.addEventListener('submit', e => {
   }
   document.getElementById('head').style.display = 'none';
   result.innerText = 'คะแนนรวมของคุณคือ ' + add + '/7 คะแนน!';
-  document.getElementById('body').style.backgroundColor = '#fff68b';
-  document.getElementsByClassName('container')[0].style.backgroundColor =
-    '#fff68b';
+  document.getElementsByClassName('container')[0].style.background= 'url("https://sv1.picz.in.th/images/2021/08/19/2armtI.jpg")';
+  document.getElementsByClassName('container')[0].style.backgroundSize= 'contain';
   document.getElementById('ans').style.display = 'none';
   document.getElementById('thanks').style.display = 'block';
 
