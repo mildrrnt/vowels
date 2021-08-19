@@ -29,9 +29,11 @@ input[type='submit'] {
 }
 
 input[type='radio'] {
-  transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
+  width: 5vw;
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  
 }
 
 button {
