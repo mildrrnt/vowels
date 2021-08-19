@@ -1,8 +1,3 @@
-import firebase from 'firebase/app';
-
-import 'firebase/auth';
-import 'firebase/firestore';
-
 
 
 document.getElementsByClassName('container')[0].style.display = 'none';
@@ -35,3 +30,19 @@ if ((check = true)) {
   container.style.height = '0';
   container.style.paddingBottom = '177.78%';
 }
+
+comment.addEventListener('submit', e => {
+  e.preventDefault();
+  var usern = '';
+  var comm = com.value;
+  if (user.value !== null) {
+    usern = user.value;
+  }
+  firebase
+    .firestore()
+    .collection('comments')
+    .add({
+      name: usern,
+      comment: comm
+    });
+});

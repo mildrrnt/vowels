@@ -192,3 +192,35 @@ h1 {
   color: #666;
   text-align: center;
 }
+
+input {
+  font-family: 'Prompt', sans-serif;
+  background-color: #f0c042;
+  border: none;
+  border-top-left-radius: 3vw;
+  border-top-right-radius: 3vw;
+  border-bottom-left-radius: 3vw;
+  border-bottom-right-radius: 3vw;
+}
+
+:placeholder-shown {
+  font-family: 'Prompt', sans-serif;
+  background-color: #7dc3c3;
+  border: none;
+  border-top-left-radius: 3vw;
+  border-top-right-radius: 3vw;
+  border-bottom-left-radius: 3vw;
+  border-bottom-right-radius: 3vw;
+}
+
+#com {
+  width: 95%;
+  height: 30vw;
+}
+
+#view {
+  font-size: 3.5vw;
+  background: #eee;
+  padding: 2vw;
+  border-radius: 2vw;
+}
