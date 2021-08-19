@@ -28,6 +28,12 @@ input[type='submit'] {
   font-size: 4.5vw;
 }
 
+input[type='radio'] {
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+}
+
 button {
   padding: 2vh;
   height: 7vh;
