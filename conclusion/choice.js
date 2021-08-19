@@ -76,23 +76,23 @@ ans.addEventListener('submit', e => {
   }
 
   if (add <= 2) {
-    txt = 'คุณโดนหลอกง่ายนะเนี่ย ต้องเสพข่าวอย่างมีสติกว่านี้แล้วล่ะ';
+    txt = 'คุณโดนหลอกง่ายนะเนี่ย <br> ต้องเสพข่าวอย่างมีสติกว่านี้แล้วล่ะ';
   } else if (add > 2 && add <= 5) {
-    txt = '';
+    txt = 'คุณอาจจะพลาดบางอย่างไป <br> ลองคิดดีๆ ก่อนจะเชื่อข่าวนะ!';
   } else if (add > 5) {
-    txt = '';
+    txt = 'คุณเก่งมาก <br> มั่นใจได้เลยว่าจะไม่โดนหลอก!';
   }
 
-  var percent = Math.round(add/7*1-);
+  var percent = Math.round((add / 7) * 100);
 
   document.getElementById('head').style.display = 'none';
   result.innerHTML =
-    '<br> <br> <br> <br> <br>' +
+    '<br> <br> <br> <br>' +
+    '<h3> คะแนนรวมของคุณคือ </h3>' +
     '<h1>' +
     percent +
     '%' +
     '</h1>' +
-    '<br>' +
     txt;
   document.getElementsByClassName('container')[0].style.background =
     'url("https://sv1.picz.in.th/images/2021/08/19/2armtI.jpg")';

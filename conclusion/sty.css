@@ -38,9 +38,10 @@ input[type='radio'] {
 button {
   padding: 2vw;
   width: 40vw;
+  height: 10vw;
   background: #fff68b;
   border: 0 none;
-  border-radius: 2vw;
+  border-radius: 2.5vw;
   cursor: pointer;
   -webkit-border-radius: 2vw;
   font-family: 'Prompt', sans-serif;
@@ -103,14 +104,11 @@ a {
 
 #noti {
   font-size: 3.5vw;
-  background-color: #fff68b;
+  background-color: #eee;
   border-radius: 3vw;
   padding: 3vw;
   padding-left: 7vw;
   padding-right: 7vw;
-  animation: 1s ease 0s normal forwards 1 fadein;
-  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
-  opacity: 1;
 }
 
 #first {
@@ -181,4 +179,16 @@ a {
 #ans {
   align-self: flex-start;
   font-size: 3.5vw;
+}
+
+h1 {
+  border-radius: 50%;
+  width: 10vw;
+  height: 10vw;
+  padding: 8vw;
+
+  background: #fff;
+  border: 2px solid #fff;
+  color: #666;
+  text-align: center;
 }
