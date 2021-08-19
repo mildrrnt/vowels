@@ -6,9 +6,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,400;1,600&display=swap" rel="stylesheet" />
-  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
-
 </head>
 
 <body id="body">
@@ -22,26 +19,24 @@
       <h3> ขอบคุณที่ร่วมสนุกกับ Vowels </h3>
       <span id="first" style="background:#b6cee3">พวกเราสนับสนุนให้ทุกคนเสพข่าวสารอย่างมีสติ<br> พยายามอ่านและไตร่ตรองอย่างมีวิจารณญาณ<br>เปรียบเทียบข่าวจากหลายแหล่งที่มาที่เชื่อถือได้<br>ก่อนจะตัดสินใจเชิ่อข้อมูลต่างๆ ที่ได้รับ</span>
       <br><br>
-      <section id="second">
-        previous comments:
-        <section id="view">
-
-        </section>
-
-
-        <form id="comment" style="text-align: left;margin-left:5%">
-          <label>ชื่อ: </label>
-          <input type="text" placeholder="เว้นว่างหากไม่ต้องการเปิดเผย" id="user"><br>
-          <label>comment: </label> <br>
-          <input type="text" placeholder="Feedback/คำแนะนำ/บอกเล่าความรู้สึก" id='com'  required ><br>
-          <br>
-          <center><input type="submit" value="comment"></center>
-
-        </form>
-      </section>
+      <br><br>
+      <br><br>
+      
+      <span id="second">สามารถร่วมคอมเม้นท์พูดคุย บอกเล่าความรู้สึก<br>รวมถึงแนะนำพวกเราได้ด้านล่าง!</span>
     </section>
   </div>
-  <script src='../conclusion/thankyou.js'></script>
+
+  <!-- begin wwww.htmlcommentbox.com -->
+  <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
+  <link rel="stylesheet" type="text/css"
+    href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+  <script type="text/javascript" id="hcb">
+    /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24z%2Fs5k9jMWmyAhjmZX4bSY1"+"&opts=16798&num=10&ts=1629364879648");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ 
+  </script>
+  <!-- end www.htmlcommentbox.com -->
+
+  <script src='../conclusion/thankyou.js'>
+  </script>
 </body>
 
 </html>

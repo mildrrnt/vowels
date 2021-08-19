@@ -1,20 +1,3 @@
-import firebase from 'firebase/app';
-
-import 'firebase/auth';
-import 'firebase/firestore';
-
-var firebaseConfig = {
-  apiKey: 'AIzaSyCB8V4ELuXBtuf3NmG-mgPDvh1dzB3dyis',
-  authDomain: 'vowelscomment.firebaseapp.com',
-  projectId: 'vowelscomment',
-  storageBucket: 'vowelscomment.appspot.com',
-  messagingSenderId: '392980754283',
-  appId: '1:392980754283:web:acd910044b335a22afe62e',
-  measurementId: 'G-ST1M06202H'
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-
 document.getElementsByClassName('container')[0].style.display = 'none';
 
 window.onload = event => {
@@ -45,19 +28,3 @@ if ((check = true)) {
   container.style.height = '0';
   container.style.paddingBottom = '177.78%';
 }
-
-comment.addEventListener('submit', e => {
-  e.preventDefault();
-  var usern = '';
-  var comm = com.value;
-  if (user.value !== null) {
-    usern = user.value;
-  }
-  firebase
-    .firestore()
-    .collection('comments')
-    .add({
-      name: usern,
-      comment: comm
-    });
-});
