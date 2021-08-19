@@ -21,7 +21,7 @@ function isMobileDevice() {
   return check;
 }
 
-const imgsrc = "https://sv1.picz.in.th/images/2021/08/19/2armtI.jpg"
+const imgsrc = 'https://sv1.picz.in.th/images/2021/08/19/2armtI.jpg';
 const container = document.getElementsByClassName('container')[0];
 
 document.getElementById('thanks').style.display = 'none';
@@ -36,6 +36,7 @@ var result = document.getElementById('result');
 
 ans.addEventListener('submit', e => {
   e.preventDefault();
+  var txt = '';
   var add = 0;
   var g1 = document.getElementsByName('group1');
   var g2 = document.getElementsByName('group2');
@@ -73,10 +74,30 @@ ans.addEventListener('submit', e => {
       add += parseInt(g6[i].value);
     }
   }
+
+  if (add <= 2) {
+    txt = 'คุณโดนหลอกง่ายนะเนี่ย ต้องเสพข่าวอย่างมีสติกว่านี้แล้วล่ะ';
+  } else if (add > 2 && add <= 5) {
+    txt = '';
+  } else if (add > 5) {
+    txt = '';
+  }
+
+  var percent = Math.round(add/7*1-);
+
   document.getElementById('head').style.display = 'none';
-  result.innerText = 'คะแนนรวมของคุณคือ ' + add + '/7 คะแนน!';
-  document.getElementsByClassName('container')[0].style.background= 'url("https://sv1.picz.in.th/images/2021/08/19/2armtI.jpg")';
-  document.getElementsByClassName('container')[0].style.backgroundSize= 'contain';
+  result.innerHTML =
+    '<br> <br> <br> <br> <br>' +
+    '<h1>' +
+    percent +
+    '%' +
+    '</h1>' +
+    '<br>' +
+    txt;
+  document.getElementsByClassName('container')[0].style.background =
+    'url("https://sv1.picz.in.th/images/2021/08/19/2armtI.jpg")';
+  document.getElementsByClassName('container')[0].style.backgroundSize =
+    'contain';
   document.getElementById('ans').style.display = 'none';
   document.getElementById('thanks').style.display = 'block';
 
